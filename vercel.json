@@ -1,8 +1,20 @@
 {
     "rewrites": [
         {
-            "source": "/(.*)",
-            "destination": "/index.html"
+            "source": "/",
+            "destination": "/home.html"
+        },
+        {
+            "source": "/home",
+            "destination": "/home.html"
+        },
+        {
+            "source": "/arenata",
+            "destination": "/arenata.html"
+        },
+        {
+            "source": "/ayala",
+            "destination": "/ayala.html"
         }
     ],
     "headers": [
